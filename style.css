@@ -1,27 +1,29 @@
 h2 {
-    margin: auto;
-    width: 10rem;
-    margin-top: 1rem;
-    padding: 3rem;
-    font-size: 38px;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+  width: 10rem;
+  margin-top: 1rem;
+  padding: 3rem;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.heroes {
-    color: rgb(51, 51, 51);
-    border: 1px solid black;
-    display: inline-block;
-    width: 20rem;
-    margin: 2rem;
-    padding: 2rem;
-    font-weight: bold;
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 10px;
+.heroes,
+.city {
+  color: rgb(51, 51, 51);
+  border: 1px solid black;
+  display: inline-block;
+  width: 20rem;
+  margin: 2rem;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 10px;
 }
 
-.heroes:hover{
-    background-color: aliceblue;
-    cursor: pointer;
+.heroes:hover,
+.city:hover {
+  background-color: rgb(195, 223, 248);
+  cursor: pointer;
 }
