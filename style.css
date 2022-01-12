@@ -24,8 +24,8 @@ h2 {
     display: inline-block;
     background-color:rgb(82, 38, 153);
     width: 20rem;
-    margin: 2rem;
-    padding: 2rem;
+    margin: 1rem;
+    padding: .5rem;
     font-weight: bold;
     font-size: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -43,8 +43,8 @@ h2 {
     border: 1px solid rgba(215, 218, 68, 0.849);
     display: inline-block;
     width: 20rem;
-    margin: 2rem;
-    padding: 2rem;
+    margin: 1rem;
+    padding: .5rem;
     font-weight: bold;
     font-size: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -53,6 +53,6 @@ h2 {
     text-align: center;
 }
 .cities:hover{
-    background-color: aliceblue;
+    background-color: rgb(7, 37, 63);
     cursor: pointer;
 }
