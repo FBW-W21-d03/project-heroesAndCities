@@ -8,7 +8,13 @@ const cities = ["New York",
  "Alabama"];
 
  function addElementCities (cities) {
-  document.write("<p class='cities'>" + cities + "</p>");
+  document.write("<button onclick='citiesClick()' class='cities'>" + cities + "</button>");
 }
 cities.map(addElementCities);
+
+function citiesClick () {
+
+  document.getElementById("cities").innerHTML = "Hallo das ist: " + cities;
+
+}
 
