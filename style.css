@@ -27,8 +27,9 @@ h2 {
 .heroes:hover{
     background-color: rgb(220, 236, 75);
     cursor: pointer;
+    box-shadow: 5px 10px red;
 }
- .city{
+ #city{
     color: rgb(51, 51, 51);
     border: 1px solid black;
     display: inline-block;
@@ -40,7 +41,8 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px;
  }
- .city:hover{
+ #city:hover{
     background-color: rgb(220, 236, 75);
     cursor: zoom-in;
+    box-shadow: 5px 10px red;
  }

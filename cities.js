@@ -3,6 +3,13 @@ const cityinAmerica =["New York", "San Francisco", "Los Angeles", "Chicago", "La
 cityinAmerica.sort();
 function cityinHtml (city) {
 
-    document.write("<p class= city>" + city + "</p>");
+    document.write(`<button onclick='cklick("${city}")' id= city> ${city} </button>`);
+
+}
+function cklick(city){
+   console.log(city);
 }
 cityinAmerica.map(cityinHtml);
+
+
+//document.write("<button onclick='cklick(" + city.toString() + ")'  class= city>" + city + "</button>");
