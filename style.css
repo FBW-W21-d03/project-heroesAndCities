@@ -34,7 +34,7 @@ h2 {
     }
 
 .heroes:hover{
-    background-color: aliceblue;
+    background-color: rgb(7, 37, 63);
     cursor: pointer;
 }
 
