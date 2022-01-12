@@ -9,6 +9,7 @@ h2 {
 }
 
 .heroes {
+    text-align: center;
     color: rgb(51, 51, 51);
     border: 1px solid black;
     display: inline-block;
@@ -22,6 +23,25 @@ h2 {
 }
 
 .heroes:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.cities {
+    text-align: center;
+    color: rgb(51, 51, 51);
+    border: 1px solid black;
+    display: inline-block;
+    width: 20rem;
+    margin: 2rem;
+    padding: 2rem;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+.cities:hover{
     background-color: aliceblue;
     cursor: pointer;
 }
