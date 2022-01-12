@@ -7,7 +7,11 @@ function cityinHtml (city) {
 
 }
 function cklick(city){
-   console.log(city);
+if(city.length > 0)
+{
+    document.write(`<img src="./400px-United_States_Administrative_Divisions_Cities.svg.png" alt="">` );
+}
+ 
 }
 cityinAmerica.map(cityinHtml);
 
