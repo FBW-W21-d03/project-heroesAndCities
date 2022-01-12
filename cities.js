@@ -2,7 +2,7 @@ const cities = ["New York" , "San Francisco" , "Los Angeles" , "Chicago" , "Las 
 
 
 function addElement (cities) {
-    document.write("<p class='cities'>" + cities + "</p>");
+    document.write("<button  class='cities'>" + cities + "</button>");
   }
   
   cities.map(addElement);
